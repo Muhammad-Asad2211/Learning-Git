@@ -9,6 +9,7 @@ jobs:
     strategy:
       matrix:
         pyhton-version: [3.8, 3.9]
+        python-version: [3.8, 3.9]  # Corrected typo in 'python-version'
 
     steps:
     - uses: actions/checkout@v3
